@@ -45,10 +45,11 @@ int main(){
 
     printf("|---------------------------------------------|\n");
     printf("|                                             |\n");
+    Sleep(1000);
     printf("|                   %s JO", bg_red);
-    Sleep(500);
+    Sleep(1000);
     printf("%sKEN", bg_yellow);
-    Sleep(500);
+    Sleep(1000);
     printf("%sPÔ %s                 %s|\n", bg_green, ansi_reset, txt_blue);
     Sleep(500);
     printf("|                                             |\n");
@@ -85,9 +86,9 @@ int main(){
         break;
     }
 
-    Sleep(1000);
     printf("|                                             |\n");
     printf("|---------------------------------------------|\n");
+    Sleep(1000);
     printf("|                                             |\n");
     if(player == comp){
         printf("|%s EMPATE!!!                                   %s|\n", txt_yellow, txt_blue);
@@ -104,10 +105,11 @@ int main(){
         }
     }
     
-    Sleep(1000);
     printf("|---------------------------------------------|\n");
+    Sleep(1000);
     printf("|                                             |\n");
-    printf("|                   FIM DE JOGO.              |\n");
+    printf("|                                             |\n");
+    printf("|                 FIM DE JOGO.                |\n");
     printf("|=============================================|\n");
     printf(ansi_reset);
     return 0;
